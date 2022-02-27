@@ -14,6 +14,6 @@ const styles = StyleSheet.create({
         padding: 24,
     },
     text: {
-        fontFamily: "roboto-mono"
+        fontFamily: "roboto-regular"
     }
 })
