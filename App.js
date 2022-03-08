@@ -5,6 +5,7 @@ import {
   RobotoMono_400Regular,
   RobotoMono_700Bold,
 } from '@expo-google-fonts/roboto-mono'
+import Navigator from "./routes/homeStack"
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -15,7 +16,7 @@ export default function App() {
     return <AppLoading />;
   }
   return (
-    <Home />
+    <Navigator />
   );
 }
 
